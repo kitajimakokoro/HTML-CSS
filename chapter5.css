@@ -1,0 +1,105 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%; /* 横幅100% */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main {
+  width: 800px; /* 横幅800px */
+  margin: 50px auto;
+  display: flex; /* Flexboxの利用 */
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #e6ffe9; /* 背景色 */
+}
+.box2 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #cbffd3; /* 背景色 */
+}
+.box3 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #aeffbd; /* 背景色 */
+}
+.box4 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #93ffab; /* 背景色 */
+}
+.box5 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #f3ffd8; /* 背景色 */
+}
+.box6 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #edffbe; /* 背景色 */
+}
+.box7 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #e9ffa5; /* 背景色 */
+}
+.box8 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #e4ff8d; /* 背景色 */
+}
+.box9 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #d9e5ff; /* 背景色 */
+}
+.box10 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #bad3ff; /* 背景色 */
+}
+.box11 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #a4c6ff; /* 背景色 */
+}
+.box12 {
+  width: 200px; /* 横幅200px */
+  height: 200px; /* 高さ200px */
+  background-color: #8eb8ff; /* 背景色 */
+}
+footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 120px; /* 高さ120px */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
