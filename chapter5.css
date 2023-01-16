@@ -1,4 +1,3 @@
-/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +5,7 @@
 }
 
 header {
-  width: 100%; /* 横幅100% */
+  width: 100%;
   padding: 20px 0;
   text-align: center;
 }
@@ -15,8 +14,8 @@ header {
   text-align: center;
   padding: 15px 0;
   margin: 0 auto;
+  border-top: 1px solid #848282;
   border-bottom: 1px solid #848282;
-  border-top: 1px solid #848282
 }
 
 .nav-list-item {
@@ -26,75 +25,78 @@ header {
 }
 
 .main {
-  width: 800px; /* 横幅800px */
+  width: 800px;
   margin: 50px auto;
-  display: flex; /* Flexboxの利用 */
+  display: flex;
   flex-wrap: wrap;
 }
 
 .box1 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #e6ffe9; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
 }
+
 .box2 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #cbffd3; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #cbffbd;
 }
+
 .box3 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #aeffbd; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
 }
 .box4 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #93ffab; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
 }
 .box5 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #f3ffd8; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
 }
 .box6 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #edffbe; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
 }
 .box7 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #e9ffa5; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
 }
 .box8 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #e4ff8d; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
 }
 .box9 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #d9e5ff; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
 }
 .box10 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #bad3ff; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
 }
 .box11 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #a4c6ff; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
 }
 .box12 {
-  width: 200px; /* 横幅200px */
-  height: 200px; /* 高さ200px */
-  background-color: #8eb8ff; /* 背景色 */
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
 }
+
 footer {
-  width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
+  width: 100%;
+  height: 120px;
   text-align: center;
   line-height: 120px;
   background-color: #848282;
