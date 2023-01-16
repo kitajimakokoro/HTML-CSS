@@ -9,24 +9,25 @@ main {
   margin: 50px auto;
 }
 
-.item-list {
+.list {
   margin-bottom: 50px;
 }
 
-.item {
+.list-item {
   padding: 20px;
   list-style: none;
 }
-.item:nth-child(odd){
+
+.list-item:nth-child(odd) {
   background-color: #eee;
 }
 
-.box-list {
+.box {
   display: flex;
   flex-wrap: wrap;
 }
 
-.box {
+.color-box {
   background-color: #ffd700;
   width: 30%;
   height: 200px;
@@ -34,16 +35,16 @@ main {
   margin-bottom: 40px;
 }
 
-.box:first-child,
-.box:nth-child(5),
-.box:last-child {
-  background-color: #ff8c00
+.color-box:first-child,
+.color-box:nth-child(5),
+.color-box:last-child {
+  background-color: #ff8c00;
 }
 
-.box:nth-child(3n) {
+.color-box:nth-child(3n) {
   margin-right: 0;
 }
 
-.box:nth-last-child(-n + 3) {
+.color-box:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
